@@ -15,7 +15,7 @@ services:
 
 
  s_contact_api:
-  container_name: c_api_gateway
+  container_name: c_contact_api
   image: fatihdindar/contactapi
   build:
     context: .
@@ -26,7 +26,7 @@ services:
    - int_net
 
  s_res_api:
-  container_name: c_res_gateway
+  container_name: c_res_api
   image: fatihdindar/resapi
   build:
     context: .
